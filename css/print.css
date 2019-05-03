@@ -1,0 +1,79 @@
+img {
+    page-break-before: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-inside: avoid; /* or 'auto' */
+}
+.mainContent{width:100%;}
+.wrapper{width:100%;}
+.header .toolsWrapper{display:none;}
+.header .menuWrapper{display:none;}
+.footerWrapper{display:none;}
+.content{padding:0px!important;background:none;}
+.intro{padding:43px 0px 33px!important;border:none!important;}
+.intro .title{text-align:left!important;}
+.intro p{text-align:left!important;}
+.slideshowWrapper{display:none;}
+.anchor{display:none;}
+.backToTopWrapper{display:none;}
+.block{border:none;}
+.nano{height:auto!important;}
+.nano-content{position:relative!important;}
+.printOnly{display:block!important;}
+.printImg{width:100%!important;display:block!important;}
+.printImg img{width:100%;}
+
+#home .sectionBlock{display:none!important;}
+#home .slideshowWrapper{display:none!important;}
+
+#overview .contentBlock{display:none;}
+
+#chairman .img{width:100%;}
+#chairman .img img{margin:0 auto 20px;}
+#chairman .text{width:100%;padding:0px;text-align:left!important;}
+
+#video_gallery .videoWrapper{display:none;}
+#video_gallery .mainBlock{margin:0px!important;}
+#video_gallery .thumbnail{float:none;margin:0 0 20px!important;width:100%;height:auto!important;/*page-break-before:auto;page-break-after:auto;page-break-inside:avoid;*/}
+#video_gallery .captionBg{position:relative!important;background:none!important;min-height:0px!important;top:0px!important;}
+#video_gallery .caption{background:none!important;padding:0px!important;}
+#video_gallery .nowPlaying{display:none!important;}
+
+.businessTemplate .details .title i{display:none;}
+.businessTemplate .details .title span{padding-left:0px!important;line-height:18px!important;}
+.businessTemplate .details .goToBlank{display:none;}
+/*.businessTemplate .accordionItem{page-break-before:auto;page-break-after:auto;page-break-inside:avoid;}*/
+.businessTemplate .backToAnchor{display:none!important;}
+.businessTemplate .selector{background:none!important;padding:0!important;color:#6D6E71!important;font-size:26px!important;}
+.businessTemplate .accordion .boxWrapper{max-height:1000px!important;}
+.businessTemplate .slideshowNavWrapper{display:none!important;}
+.businessTemplate .box{box-shadow:none!important;height:auto!important;margin-bottom:40px;}
+.businessTemplate .box .img{float:none!important;margin-bottom:20px;}
+.businessTemplate .box .text{float:none!important;width:100%!important;height:auto!important;padding:0px!important;}
+.businessTemplate .box .text h1{display:none!important;}
+
+.newsTemplate .criteria{display:none;}
+.newsTemplate .details .loading{display:none!important;}
+.newsTemplate .row{padding:0px!important;height:auto!important;margin-bottom:20px;}
+.newsTemplate .row .iconBg{min-height:0px!important;background:none!important;}
+#press .col h2{width:100%!important;}
+#press .col a{width:100%!important;}
+#newsletters .name.new{padding-left:0px!important;background:none!important;}
+#newsletters .linkWrapper {display:none;}
+
+.officeTemplate .box{padding:0px!important;margin-bottom:20px!important;width:100%!important;}
+.officeTemplate .mainContent img{display:none;}
+#all_offices .criteria{display:none;}
+#all_offices .contactSearchWrapper{display:none;}
+#all_offices .subCriteria{padding:0px!important;}
+#all_offices .subCriteria .option{background:none!important;text-indent:0px!important;display:none!important;width:auto!important;margin:0px 0px 20px!important;height:auto!important;text-align:left!important;font-size:38px;font-family:"bebas-neue",sans-serif;color:#0C2C84!important;}
+#all_offices .subCriteria .option.act{display:block!important;}
+#all_offices .subCriteria .option i{display:none;}
+
+.sdTemplate .tabWrapper{display:none!important;}
+.sdTemplate .tab{width:100%;height:auto!important;margin-bottom:20px;font-size:21px;}
+.sdTemplate .tab a{text-align:left;}
+.sdTemplate .tab a span{border:none;}
+.sdTemplate .panelWrapper{height:auto!important;}
+.sdTemplate .panel{position:relative!important;border:none;box-shadow:none;padding:0px;display:block!important;height:auto!important;}
+.sdTemplate .panel .img{margin-bottom:20px;}
+.sdTemplate .panel .text{padding:0px;height:auto!important;margin-bottom:50px;}
